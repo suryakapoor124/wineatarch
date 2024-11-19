@@ -16,8 +16,6 @@ Before installing Wine, you need to enable the **multilib** repository, which is
 
 Scroll down to approximately line 90 (default location) and locate the following lines:
 
-ini
-Copy code
 ```bash
 [multilib]
 Include = /etc/pacman.d/mirrorlist
