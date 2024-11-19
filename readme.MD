@@ -12,7 +12,8 @@ Before installing Wine, you need to enable the **multilib** repository, which is
 1. Open the **pacman configuration file** by running:  
    ```bash
    sudo vim /etc/pacman.conf
-   Make sure the vim is installed
+Make sure the vim is installed
+
 Scroll down to approximately line 90 (default location) and locate the following lines:
 
 ```bash
