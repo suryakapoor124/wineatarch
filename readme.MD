@@ -69,7 +69,10 @@ Install the Wine GUI package:
 ```bash
 yay -S winegui
 ```
-
+ALSO IF YOU WANT TO UPDATE YOUR DRIVERS (AMD ONLY)
+```bash
+sudo pacman -S mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver libva-utils
+```
 Congratulations!
 You’ve successfully installed and configured Wine on your Arch Linux or Arch-based system. Happy exploring! 🎉
 
